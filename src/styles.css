@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Brittany Local";
+  src: url("/assets/fonts/brittany.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Boston Angel Local";
+  src: url("/assets/fonts/boston-angel.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Providence Sans Local";
+  src: url("/assets/fonts/providence-sans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Providence Sans Local";
+  src: url("/assets/fonts/providence-sans-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --green: #3f6648;
+  --green-dark: #274d35;
+  --green-soft: #c5d0c0;
+  --cream: #fffdf6;
+  --paper: #f7f2e6;
+  --ink: #365a3e;
+  --white: #fffaf1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--cream);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
